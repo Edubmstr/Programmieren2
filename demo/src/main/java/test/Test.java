@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class Test{
     public static void main(String[] args){
+        Random random = new Random();
+        int[] numbers = new int[4];
+        System.out.println(numbers);
        
         
         Scanner scanner = new Scanner(System.in);

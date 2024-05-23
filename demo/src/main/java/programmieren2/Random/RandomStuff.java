@@ -1,4 +1,4 @@
-package programmieren2;
+package programmieren2.Random;
 
 import java.util.Arrays;
 import java.util.Random;

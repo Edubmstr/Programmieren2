@@ -1,4 +1,4 @@
-package programmieren2;
+package programmieren2.Random;
 
 public class Car {
     private String brand;
