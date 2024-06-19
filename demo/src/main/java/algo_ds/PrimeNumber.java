@@ -2,7 +2,7 @@ package algo_ds;
 
 public class PrimeNumber {
     public static void main(String[] args){
-        System.out.println(isPrime(3));
+        System.out.println(isPrime(13));
     }
 
     private static boolean isPrime(int n){ // 3 + 2 + sqrt(n)*7 + 1 = 6 + 7*sqrt(n)

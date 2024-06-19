@@ -15,7 +15,7 @@ public class RekursionInterativ {
         System.out.println("Fibonacci rekursiv: "+ (end1-start1));
 
         start1 = System.nanoTime();
-        System.out.println(calculateGGTAsIteration(36, 24));
+        System.out.println(calculateGGTAsIteration(24, 36));
         end1 = System.nanoTime();
         System.out.println("GGT iterativ: "+ (end1-start1));
 

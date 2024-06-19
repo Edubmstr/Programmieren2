@@ -1,0 +1,41 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "algo_ds.Main",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Threading",
+      "request": "launch",
+      "mainClass": "programmieren2.Threading.Threading",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "TestHttp",
+      "request": "launch",
+      "mainClass": "programmieren2.Random.TestHttp",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "FlappyBird",
+      "request": "launch",
+      "mainClass": "programmieren2.FlappyBird.FlappyBird",
+      "projectName": "demo"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": ".",
+      "program": "build/Debug/outDebug"
+    }
+  ]
+}

@@ -13,21 +13,4 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
-    <dependencies>
-
-        <dependency>
-            <groupId>org.processing</groupId>
-            <artifactId>processing-complete</artifactId>
-            <version>3.3.7</version>
-            <type>pom</type>
-        </dependency>
-
-        <dependency>
-            <groupId>org.processing</groupId>
-            <artifactId>core</artifactId>
-            <version>3.3.6</version>
-            <scope>provide</scope>
-        </dependency>
-    </dependencies>
-
 </project>
