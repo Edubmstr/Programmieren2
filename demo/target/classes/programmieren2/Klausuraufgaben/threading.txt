@@ -1,0 +1,46 @@
+Threads sind vorallem bei der glecihzeitigen Ausführung bestimmter Programmteile von Vorteil. Ein Thread läuft dabei unabhänding vom Hauptausführungsstrang
+(Event Dispatching Thread) und blockiert diesen somit nicht. Typische Beispiele sind z.B. der Download von mehreren Bilder im Hintergrund oder eine Aufteilung einer
+aufwendigen Rechnung, die zerlegt und von mehreren Threads gleichzeitigt bearbeitet wird. Außerdem kommen Threads oft bei Applikationen zum Einsatz, bei denen im Hintergrund
+Daten gefetched werden sollen, wobei die Gui in der Zeit trotzdem responsive bleiben soll.
+
+Das große Problem bei Threads liegt in der Synchronisation und Koordination. Das bedeutet, dass Threads, die auf den selben Datenbereich zugreifen wollen, nur nacheinander 
+zugreifen dürfen, da ansonsten die Daten inkonsistent oder gar zerstört werden. Ein weiteres Problem ist, die Koordination, d.h. die zeitliche Abfolge der Threads, bei der 
+z.B. Thread 2 auf ein Ergebnis von Thread 1 angewiesen ist und somit warten muss. Hierbei können Deadlocks entstehen, wenn Thread 1 wiederrum auf Thread 2 wartet und somit
+nichts mehr passiert.
+
+
+2.1
+
+public class GuiButton{
+    private int posX, posY;
+    private int length, width;
+    private Color color;
+    private String label;
+    private Runnable function;
+
+    public GuiButton(int posX, int posY, int length, int width, Color color, String label, Runnable function){
+        this.posX = posX;
+        this.posY = posY;
+        this.length = length;
+        this.width = width;
+        this.color = color;
+        this.label = label;
+        this.function = function;
+    }
+
+    public void onClick(){
+        this.function.run();
+    }
+}
+
+GuiButton button = new GuiButton(100, 100, 200, 200, Color.BLACK, "Knopf", () -> someFunction());
+
+2.2 
+
+USA 
+
+32 Zeichen * 1 byte 
+64 bit = 8 byte 
+= 40 Byte 
+
+

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "programmieren2.Klausuraufgaben.Test",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Algorithmen",
+      "request": "launch",
+      "mainClass": "algo_ds.Suchalgo.Algorithmen",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Streams",
+      "request": "launch",
+      "mainClass": "programmieren2.Streams.Streams",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "algo_ds.Main",
