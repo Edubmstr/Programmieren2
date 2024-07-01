@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QuickSortNeu",
+      "request": "launch",
+      "mainClass": "algo_ds.Suchalgo.QuickSortNeu",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "QuickSort",
+      "request": "launch",
+      "mainClass": "algo_ds.Suchalgo.QuickSort",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "algo_ds.Suchalgo.BubbleSort",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "programmieren2.Klausuraufgaben.Test",
