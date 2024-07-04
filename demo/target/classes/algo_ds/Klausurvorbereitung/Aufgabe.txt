@@ -1,0 +1,51 @@
+Übung 1
+
+Algorithmen muss endlich sein FALSCH
+Iterationen effizienter als Rekursion JA
+Baumstrukturen von Knoten zu Knoten FALSCH
+Verkette Listen für Binary Search FALSCH
+BubbleSort stabil JA
+
+Übung 2
+
+Algorithmen spielen vor allem in der Designphase/Implementierung
+
+
+Übung 3
+
+Der vorliegende Algorithmus soll eine sequentielle Suche darstellen,
+bei der durch jedes Element in dem Array iteriert wird und mit dem
+Suchwert verglichen wird. So wie die Implementierung jetzt ist, da
+der Algorithmus sofort beim ersten Durchlauf, wenn der Indexwert nicht
+dem gesuchten Wert entspricht -1 returned. Außerdem wird der Indexwert
+in der While-Schleife nicht erhöht. Somit wird nur das erste Element
+jedes Mal aufgenommen. Das Listenobjekt am Anfang sollte zudem als beim
+Initialiseren auf das erste Element aus den Array gesetzt werden.
+Eine mögliche Optimierung wäre die binäre Suche bei einer sortierten Liste
+die eine Verbessung Laufzeit von O(log n) gegenüber O(n) hat.
+
+Übung 4
+
+Rechnungsnummer
+
+
+Übung 7
+
+Es eignet sich bei einer bereits vorsortieren Liste vorallem
+der Insertionsort, da dieser einzelne Elemente an die entsprechende
+Stelle setzt.
+
+Evtl. optimierte Varianten von Bubble/Insertionsort
+
+public int[] sortieren(int[] liste){
+    for(int i = 1, i < liste.length, i++){
+        int min = liste[i];
+        int j = i - 1;
+        while(j >= 0 && liste[i] > temp){
+            liste[j+1] = liste[j];
+            j--;
+        }
+        liste[j+1] = temp;
+    }
+    return liste;
+}

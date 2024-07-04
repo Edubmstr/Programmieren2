@@ -9,6 +9,8 @@ public class CompareTwoLists {
         list2.sort(null);
 
         return list1.equals(list2);
+
+        //remove ansatz
     }
 
 }
