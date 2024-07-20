@@ -27,6 +27,10 @@ die eine Verbessung Laufzeit von O(log n) gegenüber O(n) hat.
 
 Art der Rechnungsnummer
 (nicht vollständig)
+Wie sehen die Rechnungsnummern aus?
+Sind diese vergleichbar?
+Sind die Werte vorsortiert?
+Wie viele Rechnungsnummern müssen sortiert werden
 
 
 Übung 7
