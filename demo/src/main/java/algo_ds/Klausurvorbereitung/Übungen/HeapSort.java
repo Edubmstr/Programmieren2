@@ -12,6 +12,8 @@ public class HeapSort {
             currentValue = heap.getRoot();
             sortedList.add(currentValue);
             heap.remove(currentValue);
+
+            sortedList.add(heap.remove(heap.getRoot()));
         }
         return sortedList;
     }
