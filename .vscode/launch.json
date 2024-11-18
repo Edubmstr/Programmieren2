@@ -5,6 +5,20 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "programmieren2.StudentUniversity.Main",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "algo_ds.Suchalgorithmen.Main",
+      "projectName": "demo"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "algo_ds.Suchalgo.Main",
       "projectName": "demo"
     },
