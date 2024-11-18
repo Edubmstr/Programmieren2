@@ -41,6 +41,7 @@ USA
 
 32 Zeichen * 1 byte 
 64 bit = 8 byte 
-= 40 Byte 
++ 1 Byte Boolean Flag
+= 33 oder 41 Byte 
 
 
